@@ -19,22 +19,9 @@
 
 ## Índice
 
-<table>
-<tr>
-<td><a href="#projetos">Projetos</a></td>
-<td><a href="#cbank">CBank</a></td>
-<td><a href="#posicionamento">Posicionamento</a></td>
-<td><a href="#stack">Stack</a></td>
-<td><a href="#engenharia">Engenharia</a></td>
-<td><a href="#contato">Contato</a></td>
-</tr>
-</table>
+[Projetos](#projetos) · [CBank](#cbank) · [Posicionamento](#posicionamento) · [Stack](#stack) · [Engenharia](#engenharia) · [Contato](#contato)
 
 ## Projetos
-
-<table>
-<tr>
-<td width="33%" bgcolor="#111827" valign="top">
 
 ### <font color="#67e8f9">Música Artificial</font>
 
@@ -44,9 +31,6 @@ Operação editorial assistida por agentes para transformar ideias musicais em c
 
 [Ver projeto →](https://github.com/ebalbinodasilva/musica-artificial)
 
-</td>
-<td width="33%" bgcolor="#171329" valign="top">
-
 ### <font color="#f9a8d4">LinkedIn AI Daily Posts</font>
 
 Servidor MCP para posicionamento profissional, geração de conteúdo e fila de publicação no LinkedIn.
@@ -54,9 +38,6 @@ Servidor MCP para posicionamento profissional, geração de conteúdo e fila de 
 `TypeScript` `OAuth` `MCP` `Python`
 
 [Ver projeto →](https://github.com/ebalbinodasilva/linkedin-ai-daily-posts)
-
-</td>
-<td width="33%" bgcolor="#10251f" valign="top">
 
 ### <font color="#86efac">LifeOps Ecosystem</font>
 
@@ -66,19 +47,11 @@ Plataforma em definição para centralizar finanças, agenda e planejamento fami
 
 [Ver projeto →](https://github.com/ebalbinodasilva/lifeops-ecosystem)
 
-</td>
-</tr>
-</table>
-
 <a id="cbank"></a>
 
 ## CBank
 
 <font color="#f9a8d4">Ecossistema de crédito de carbono com serviços independentes para aplicação, infraestrutura, autenticação e linguagem natural.</font>
-
-<table>
-<tr>
-<td width="25%" bgcolor="#172554" valign="top">
 
 ### <font color="#67e8f9">CBank App</font>
 
@@ -86,17 +59,11 @@ Aplicação multiplataforma para operações de crédito de carbono.
 
 [Ver repositório →](https://github.com/ebalbinodasilva/cbank_app)
 
-</td>
-<td width="25%" bgcolor="#1f1730" valign="top">
-
 ### <font color="#f9a8d4">CBank Infra</font>
 
 Infraestrutura Kubernetes para os serviços da aplicação.
 
 [Ver repositório →](https://github.com/ebalbinodasilva/cbank_infra)
-
-</td>
-<td width="25%" bgcolor="#10251f" valign="top">
 
 ### <font color="#86efac">CBank Login</font>
 
@@ -104,18 +71,11 @@ Serviço de autenticação e criação de aplicações do ecossistema.
 
 [Ver repositório →](https://github.com/ebalbinodasilva/cbank_login)
 
-</td>
-<td width="25%" bgcolor="#31202a" valign="top">
-
 ### <font color="#fde68a">CBank NLP</font>
 
 Serviço de processamento de linguagem natural para chat.
 
 [Ver repositório →](https://github.com/ebalbinodasilva/cbank_nlp)
-
-</td>
-</tr>
-</table>
 
 ## Posicionamento
 
@@ -131,13 +91,11 @@ Meus temas de interesse:
 
 ## Stack
 
-<table>
-<tr>
-<td bgcolor="#0f172a"><font color="#67e8f9"><strong>Backend</strong></font><br><br>Python · Kotlin · Java · TypeScript · FastAPI · Spring Boot</td>
-<td bgcolor="#1f1730"><font color="#f9a8d4"><strong>Dados e IA</strong></font><br><br>PostgreSQL · SQLite · LangGraph · MCP · OpenTelemetry</td>
-<td bgcolor="#10251f"><font color="#86efac"><strong>Cloud e Operação</strong></font><br><br>Docker · Kubernetes · AWS · Azure · CI/CD</td>
-</tr>
-</table>
+<font color="#67e8f9"><strong>Backend:</strong></font> `Python` `Kotlin` `Java` `TypeScript` `FastAPI` `Spring Boot`
+
+<font color="#f9a8d4"><strong>Dados e IA:</strong></font> `PostgreSQL` `SQLite` `LangGraph` `MCP` `OpenTelemetry`
+
+<font color="#86efac"><strong>Cloud e Operação:</strong></font> `Docker` `Kubernetes` `AWS` `Azure` `CI/CD`
 
 ## Engenharia
 
