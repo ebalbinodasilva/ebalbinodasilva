@@ -25,6 +25,7 @@
 <table>
 <tr>
 <td><a href="#projetos">Projetos</a></td>
+<td><a href="#cbank">CBank</a></td>
 <td><a href="#posicionamento">Posicionamento</a></td>
 <td><a href="#stack">Stack</a></td>
 <td><a href="#engenharia">Engenharia</a></td>
@@ -67,6 +68,53 @@ Plataforma em definição para centralizar finanças, agenda e planejamento fami
 `Product` `Architecture` `AI`
 
 [Ver projeto →](https://github.com/ebalbinodasilva/lifeops-ecosystem)
+
+</td>
+</tr>
+</table>
+
+<a id="cbank"></a>
+
+## CBank
+
+<font color="#f9a8d4">Ecossistema de crédito de carbono com serviços independentes para aplicação, infraestrutura, autenticação e linguagem natural.</font>
+
+<table>
+<tr>
+<td width="25%" bgcolor="#172554" valign="top">
+
+### <font color="#67e8f9">CBank App</font>
+
+Aplicação multiplataforma para operações de crédito de carbono.
+
+[Ver repositório →](https://github.com/ebalbinodasilva/cbank_app)
+
+</td>
+<td width="25%" bgcolor="#1f1730" valign="top">
+
+### <font color="#f9a8d4">CBank Infra</font>
+
+Infraestrutura Kubernetes para os serviços da aplicação.
+
+[Ver repositório →](https://github.com/ebalbinodasilva/cbank_infra)
+
+</td>
+<td width="25%" bgcolor="#10251f" valign="top">
+
+### <font color="#86efac">CBank Login</font>
+
+Serviço de autenticação e criação de aplicações do ecossistema.
+
+[Ver repositório →](https://github.com/ebalbinodasilva/cbank_login)
+
+</td>
+<td width="25%" bgcolor="#31202a" valign="top">
+
+### <font color="#fde68a">CBank NLP</font>
+
+Serviço de processamento de linguagem natural para chat.
+
+[Ver repositório →](https://github.com/ebalbinodasilva/cbank_nlp)
 
 </td>
 </tr>
