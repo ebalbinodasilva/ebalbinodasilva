@@ -1,3 +1,7 @@
+<table width="100%">
+<tr>
+<td bgcolor="#0b1220">
+
 <div align="center">
 
 <table>
@@ -160,3 +164,7 @@ Meus temas de interesse:
 <font color="#94a3b8">Projetos reais, decisões de engenharia e aprendizados em construção.</font>
 
 </div>
+
+</td>
+</tr>
+</table>
