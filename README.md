@@ -1,21 +1,12 @@
-<div align="center">
+# Everton Silva
 
-<table>
-<tr>
-<td bgcolor="#0b1220" align="center">
+### Software Engineer · Arquitetura · Liderança Técnica
 
-# <font color="#67e8f9">Everton Silva</font>
-
-### <font color="#f9a8d4">Software Engineer</font> · Arquitetura · Liderança Técnica
-
-<font color="#cbd5e1">Transformo complexidade técnica em produtos claros, confiáveis e orientados a impacto.</font>
+> Transformo complexidade técnica em produtos claros, confiáveis e orientados a impacto.
 
 [![GitHub](https://img.shields.io/badge/GitHub-ebalbinodasilva-111827?style=flat-square&logo=github&logoColor=white)](https://github.com/ebalbinodasilva)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-conecte--se-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evertonbalbinosilva)
 [![Portfolio](https://img.shields.io/badge/Portfolio-projetos-f472b6?style=flat-square&logo=github&logoColor=white)](#projetos)
-
-
-</div>
 
 ## Índice
 
@@ -23,55 +14,47 @@
 
 ## Projetos
 
-### <font color="#67e8f9">Música Artificial</font>
+### Música Artificial · `Python` `FastAPI` `LangGraph` `MCP`
 
 Operação editorial assistida por agentes para transformar ideias musicais em conteúdo multiplataforma.
 
-`Python` `FastAPI` `LangGraph` `MCP`
-
 [Ver projeto →](https://github.com/ebalbinodasilva/musica-artificial)
 
-### <font color="#f9a8d4">LinkedIn AI Daily Posts</font>
+### LinkedIn AI Daily Posts · `TypeScript` `OAuth` `MCP` `Python`
 
 Servidor MCP para posicionamento profissional, geração de conteúdo e fila de publicação no LinkedIn.
 
-`TypeScript` `OAuth` `MCP` `Python`
-
 [Ver projeto →](https://github.com/ebalbinodasilva/linkedin-ai-daily-posts)
 
-### <font color="#86efac">LifeOps Ecosystem</font>
+### LifeOps Ecosystem · `Product` `Architecture` `AI`
 
 Plataforma em definição para centralizar finanças, agenda e planejamento familiar com decisões orientadas por dados.
 
-`Product` `Architecture` `AI`
-
 [Ver projeto →](https://github.com/ebalbinodasilva/lifeops-ecosystem)
-
-<a id="cbank"></a>
 
 ## CBank
 
-<font color="#f9a8d4">Ecossistema de crédito de carbono com serviços independentes para aplicação, infraestrutura, autenticação e linguagem natural.</font>
+> Ecossistema de crédito de carbono com serviços independentes para aplicação, infraestrutura, autenticação e linguagem natural.
 
-### <font color="#67e8f9">CBank App</font>
+### CBank App
 
 Aplicação multiplataforma para operações de crédito de carbono.
 
 [Ver repositório →](https://github.com/ebalbinodasilva/cbank_app)
 
-### <font color="#f9a8d4">CBank Infra</font>
+### CBank Infra
 
 Infraestrutura Kubernetes para os serviços da aplicação.
 
 [Ver repositório →](https://github.com/ebalbinodasilva/cbank_infra)
 
-### <font color="#86efac">CBank Login</font>
+### CBank Login
 
 Serviço de autenticação e criação de aplicações do ecossistema.
 
 [Ver repositório →](https://github.com/ebalbinodasilva/cbank_login)
 
-### <font color="#fde68a">CBank NLP</font>
+### CBank NLP
 
 Serviço de processamento de linguagem natural para chat.
 
@@ -91,11 +74,11 @@ Meus temas de interesse:
 
 ## Stack
 
-<font color="#67e8f9"><strong>Backend:</strong></font> `Python` `Kotlin` `Java` `TypeScript` `FastAPI` `Spring Boot`
+**Backend:** `Python` `Kotlin` `Java` `TypeScript` `FastAPI` `Spring Boot`
 
-<font color="#f9a8d4"><strong>Dados e IA:</strong></font> `PostgreSQL` `SQLite` `LangGraph` `MCP` `OpenTelemetry`
+**Dados e IA:** `PostgreSQL` `SQLite` `LangGraph` `MCP` `OpenTelemetry`
 
-<font color="#86efac"><strong>Cloud e Operação:</strong></font> `Docker` `Kubernetes` `AWS` `Azure` `CI/CD`
+**Cloud e Operação:** `Docker` `Kubernetes` `AWS` `Azure` `CI/CD`
 
 ## Engenharia
 
@@ -110,12 +93,4 @@ Meus temas de interesse:
 - [LinkedIn](https://www.linkedin.com/in/evertonbalbinosilva)
 - [GitHub](https://github.com/ebalbinodasilva)
 
-<div align="center">
-
-<font color="#94a3b8">Projetos reais, decisões de engenharia e aprendizados em construção.</font>
-
-</div>
-
-</td>
-</tr>
-</table>
+_Projetos reais, decisões de engenharia e aprendizados em construção._
