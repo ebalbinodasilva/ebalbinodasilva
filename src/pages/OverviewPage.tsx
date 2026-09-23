@@ -1,0 +1,18 @@
+import { Button, Card, CardHeader, Body1, Caption1, MessageBar, MessageBarBody, Title1, Title3 } from '@fluentui/react-components';
+import { ArrowRightRegular, ChartMultipleRegular, CodeRegular, FolderOpenRegular, PersonRegular, ArrowSyncRegular, WarningRegular } from '@fluentui/react-icons';
+import { useEffect, useState } from 'react';
+import { api } from '../api';
+import type { Profile, Project } from '../data/profile';
+import { StatusBadge } from '../components/StatusBadge';
+
+export function OverviewPage() { const [profile, setProfile] = useState<Profile | null>(null); const [projects, setProjects] = useState<Project[]>([]); const [error, setError] = useState(false);
+  useEffect(() => { Promise.all([api.getProfile(), api.getProjects()]).then(([nextProfile, nextProjects]) => { setProfile(nextProfile); setProjects(nextProjects); }).catch(() => setError(true)); }, []);
+  if (error) return <MessageBar intent="error"><WarningRegular /><MessageBarBody>Não foi possível carregar o painel. <Button appearance="subtle" icon={<ArrowSyncRegular />} onClick={() => window.location.reload()}>Tentar novamente</Button></MessageBarBody></MessageBar>;
+  if (!profile) return <div className="loading-panel" aria-busy="true"><div /><div /><div /></div>;
+  return <div className="page-stack">
+    <section className="hero"><div className="hero-mesh" aria-hidden="true" /><Caption1 className="eyebrow">{profile.role}</Caption1><Title1>{profile.name}</Title1><Body1>{profile.summary}</Body1><div className="hero-actions"><Button appearance="primary" icon={<ArrowRightRegular />} onClick={() => window.history.pushState({}, '', '/projects')}>Explorar projetos</Button><Button appearance="secondary" icon={<CodeRegular />} onClick={() => window.history.pushState({}, '', '/stack')}>Ver stack e princípios</Button></div></section>
+    <section><div className="section-heading"><Title3><ChartMultipleRegular /> Sinais de posicionamento</Title3><Caption1>Leitura rápida do momento atual</Caption1></div><div className="metric-grid">{profile.metrics.map((metric, index) => <Card key={metric.label} className="metric-card"><CardHeader image={index === 0 ? <FolderOpenRegular /> : index === 1 ? <ChartMultipleRegular /> : <PersonRegular />} header={<Caption1>{metric.label}</Caption1>} /><strong>{metric.value}</strong><Body1>{metric.detail}</Body1></Card>)}</div></section>
+    <section><div className="section-heading"><Title3><FolderOpenRegular /> Projetos em destaque</Title3><Caption1>{projects.length} registros atuais</Caption1></div><div className="project-grid">{projects.slice(0, 3).map((project) => <Card key={project.name} className="project-card"><StatusBadge status={project.status} /><Title3>{project.name}</Title3><Body1>{project.focus}</Body1><Caption1>{project.technologies.join(' · ')}</Caption1></Card>)}</div></section>
+    <section><div className="section-heading"><Title3><WarningRegular /> Atividade pública recente</Title3><Caption1>Últimos sinais editoriais e técnicos</Caption1></div><MessageBar intent="warning"><MessageBarBody><strong>Fonte pública temporariamente indisponível.</strong> Tente novamente para atualizar os sinais recentes.</MessageBarBody></MessageBar><Card className="activity-card"><Caption1>18 set 2026 · Arquitetura</Caption1><Title3>{profile.activity}</Title3><Body1>Uma síntese sobre como transformar trade-offs de arquitetura em decisões que o time consegue sustentar.</Body1></Card></section>
+  </div>;
+}

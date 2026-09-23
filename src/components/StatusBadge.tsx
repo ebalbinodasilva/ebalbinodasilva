@@ -1,0 +1,2 @@
+import { Badge } from '@fluentui/react-components';
+export function StatusBadge({ status }: { status: string }) { const color = status === 'Ativo' ? 'success' : status === 'Em construção' ? 'warning' : 'informative'; return <Badge appearance="tint" color={color}>{status}</Badge>; }
