@@ -1,7 +1,3 @@
-<table width="100%">
-<tr>
-<td bgcolor="#0b1220">
-
 <div align="center">
 
 <table>
@@ -18,9 +14,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-conecte--se-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evertonbalbinosilva)
 [![Portfolio](https://img.shields.io/badge/Portfolio-projetos-f472b6?style=flat-square&logo=github&logoColor=white)](#projetos)
 
-</td>
-</tr>
-</table>
 
 </div>
 
