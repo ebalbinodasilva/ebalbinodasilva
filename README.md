@@ -1,96 +1,40 @@
+<div align="center">
+
 # Everton Silva
 
-### Software Engineer · Arquitetura · Liderança Técnica
+Software Engineer · Arquitetura de Software · Liderança Técnica
 
-> Transformo complexidade técnica em produtos claros, confiáveis e orientados a impacto.
+Transformo complexidade técnica em produtos claros, confiáveis e orientados a impacto.
 
-[![GitHub](https://img.shields.io/badge/GitHub-ebalbinodasilva-111827?style=flat-square&logo=github&logoColor=white)](https://github.com/ebalbinodasilva)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-conecte--se-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/evertonbalbinosilva)
-[![Portfolio](https://img.shields.io/badge/Portfolio-projetos-f472b6?style=flat-square&logo=github&logoColor=white)](#projetos)
+[LinkedIn](https://www.linkedin.com/in/evertonbalbinosilva) · [GitHub](https://github.com/ebalbinodasilva)
 
-## Índice
+</div>
 
-[Projetos](#projetos) · [CBank](#cbank) · [Posicionamento](#posicionamento) · [Stack](#stack) · [Engenharia](#engenharia) · [Contato](#contato)
+## Sobre
 
-## Projetos
+Atuo na interseção entre engenharia de software, arquitetura de soluções e estratégia de produto. Meu foco é criar sistemas e práticas que reduzam complexidade, aumentem a confiabilidade e ajudem times a tomar decisões melhores.
 
-### Música Artificial · `Python` `FastAPI` `LangGraph` `MCP`
+## Em construção
 
-Operação editorial assistida por agentes para transformar ideias musicais em conteúdo multiplataforma.
+- [Música Artificial](https://github.com/ebalbinodasilva/musica-artificial) — operação editorial assistida por agentes para conteúdo multiplataforma. `Python` `FastAPI` `LangGraph` `MCP`
+- [LinkedIn AI Daily Posts](https://github.com/ebalbinodasilva/linkedin-ai-daily-posts) — servidor MCP para posicionamento profissional, geração de conteúdo e fila de publicação. `TypeScript` `OAuth` `MCP`
+- [LifeOps Ecosystem](https://github.com/ebalbinodasilva/lifeops-ecosystem) — plataforma para finanças, agenda e planejamento familiar orientados por dados. `Product` `Architecture` `AI`
 
-[Ver projeto →](https://github.com/ebalbinodasilva/musica-artificial)
+## Áreas de atuação
 
-### LinkedIn AI Daily Posts · `TypeScript` `OAuth` `MCP` `Python`
-
-Servidor MCP para posicionamento profissional, geração de conteúdo e fila de publicação no LinkedIn.
-
-[Ver projeto →](https://github.com/ebalbinodasilva/linkedin-ai-daily-posts)
-
-### LifeOps Ecosystem · `Product` `Architecture` `AI`
-
-Plataforma em definição para centralizar finanças, agenda e planejamento familiar com decisões orientadas por dados.
-
-[Ver projeto →](https://github.com/ebalbinodasilva/lifeops-ecosystem)
-
-## CBank
-
-> Ecossistema de crédito de carbono com serviços independentes para aplicação, infraestrutura, autenticação e linguagem natural.
-
-### CBank App
-
-Aplicação multiplataforma para operações de crédito de carbono.
-
-[Ver repositório →](https://github.com/ebalbinodasilva/cbank_app)
-
-### CBank Infra
-
-Infraestrutura Kubernetes para os serviços da aplicação.
-
-[Ver repositório →](https://github.com/ebalbinodasilva/cbank_infra)
-
-### CBank Login
-
-Serviço de autenticação e criação de aplicações do ecossistema.
-
-[Ver repositório →](https://github.com/ebalbinodasilva/cbank_login)
-
-### CBank NLP
-
-Serviço de processamento de linguagem natural para chat.
-
-[Ver repositório →](https://github.com/ebalbinodasilva/cbank_nlp)
-
-## Posicionamento
-
-Atuo na interseção entre **engenharia de software, arquitetura de soluções e estratégia de produto**. Construo sistemas e práticas que ajudam times a reduzir complexidade, aumentar confiabilidade e tomar decisões melhores.
-
-Meus temas de interesse:
-
-- arquitetura de software e sistemas distribuídos;
-- engenharia de plataformas, observabilidade e confiabilidade;
-- inteligência artificial aplicada a produtos e operações;
-- automação de workflows com agentes;
-- liderança técnica, qualidade e evolução organizacional.
+- Arquitetura de software e sistemas distribuídos
+- Engenharia de plataformas, observabilidade e confiabilidade
+- Inteligência artificial aplicada a produtos e operações
+- Automação de workflows com agentes
+- Qualidade, evolução técnica e liderança de times
 
 ## Stack
 
-**Backend:** `Python` `Kotlin` `Java` `TypeScript` `FastAPI` `Spring Boot`
+`Python` · `Kotlin` · `Java` · `TypeScript` · `FastAPI` · `Spring Boot` · `PostgreSQL` · `Docker` · `Kubernetes` · `AWS` · `Azure` · `OpenTelemetry`
 
-**Dados e IA:** `PostgreSQL` `SQLite` `LangGraph` `MCP` `OpenTelemetry`
+## Princípios
 
-**Cloud e Operação:** `Docker` `Kubernetes` `AWS` `Azure` `CI/CD`
-
-## Engenharia
-
-- **Clareza antes de complexidade:** arquitetura deve tornar decisões mais fáceis de entender.
-- **Domínio protegido:** regras de negócio não ficam acopladas a frameworks ou integrações.
-- **Automação responsável:** observabilidade, segurança e decisão humana onde o risco exige.
-- **Qualidade verificável:** testes, contratos, rastreabilidade e comportamento real do sistema.
-- **Evolução incremental:** validar valor antes de escalar a arquitetura.
-
-## Contato
-
-- [LinkedIn](https://www.linkedin.com/in/evertonbalbinosilva)
-- [GitHub](https://github.com/ebalbinodasilva)
-
-_Projetos reais, decisões de engenharia e aprendizados em construção._
+- Clareza antes de complexidade.
+- Domínio protegido e contratos explícitos.
+- Automação responsável, com observabilidade e qualidade verificável.
+- Evolução incremental orientada a valor.
