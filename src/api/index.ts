@@ -27,10 +27,10 @@ const profile: Profile = {
 };
 
 const projects: Project[] = [
-  { name: 'Música Artificial', focus: 'Operação editorial assistida por agentes para conteúdo multiplataforma', technologies: ['Python', 'FastAPI', 'LangGraph', 'MCP'], status: 'Em construção', href: 'https://github.com/ebalbinodasilva/musica-artificial' },
-  { name: 'LinkedIn AI Daily Posts', focus: 'Conteúdo, posicionamento e fila de publicação no LinkedIn', technologies: ['TypeScript', 'OAuth', 'MCP', 'Python'], status: 'Ativo', href: 'https://github.com/ebalbinodasilva/linkedin-ai-daily-posts' },
-  { name: 'LifeOps Ecosystem', focus: 'Finanças, agenda e planejamento familiar orientados por dados', technologies: ['Product', 'Architecture', 'AI'], status: 'Em definição', href: 'https://github.com/ebalbinodasilva/lifeops-ecosystem' },
-  { name: 'CBank App', focus: 'Operações multiplataforma de crédito de carbono', technologies: ['Kubernetes', 'APIs', 'Cloud'], status: 'Ecossistema', href: 'https://github.com/ebalbinodasilva/cbank_app' }
+  { name: 'Música Artificial', focus: 'Operação editorial assistida por agentes para conteúdo multiplataforma', technologies: ['Python', 'FastAPI', 'LangGraph', 'MCP'], status: 'Em construção' },
+  { name: 'LinkedIn AI Daily Posts', focus: 'Conteúdo, posicionamento e fila de publicação no LinkedIn', technologies: ['TypeScript', 'OAuth', 'MCP', 'Python'], status: 'Ativo' },
+  { name: 'LifeOps Ecosystem', focus: 'Finanças, agenda e planejamento familiar orientados por dados', technologies: ['Product', 'Architecture', 'AI'], status: 'Em definição' },
+  { name: 'CBank App', focus: 'Operações multiplataforma de crédito de carbono', technologies: ['Kubernetes', 'APIs', 'Cloud'], status: 'Ecossistema' }
 ];
 
 const stack: StackArea[] = [
