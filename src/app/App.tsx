@@ -15,7 +15,7 @@ export function App() {
 
   useEffect(() => { const onPop = () => setPath(window.location.pathname); window.addEventListener('popstate', onPop); return () => window.removeEventListener('popstate', onPop); }, []);
   const navigate = (nextPath: string) => { window.history.pushState({}, '', nextPath); setPath(nextPath); };
-  const page = path === '/projects' ? <ProjectsPage /> : path === '/stack' ? <StackPage /> : <OverviewPage />;
+  const page = path === '/projects' ? <ProjectsPage /> : path === '/stack' ? <StackPage /> : <OverviewPage onNavigate={navigate} />;
 
   return <FluentProvider theme={dark ? darkTheme : lightTheme} className="app-provider"><AppShell path={path} dark={dark} onNavigate={navigate} onToggleTheme={() => { const next = !dark; setDark(next); localStorage.setItem('app-theme', next ? 'dark' : 'light'); }}>{page}</AppShell></FluentProvider>;
 }
