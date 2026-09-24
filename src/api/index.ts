@@ -19,9 +19,9 @@ const profile: Profile = {
   role: 'Software Engineer · Arquitetura · Liderança Técnica',
   summary: 'Transformo complexidade técnica em produtos claros, confiáveis e orientados a impacto.',
   metrics: [
-    { label: 'Repositórios', value: '36', detail: 'Portfólio total no GitHub' },
-    { label: 'Projetos públicos', value: '13', detail: 'Visíveis para a comunidade' },
-    { label: 'Em desenvolvimento', value: '23', detail: 'Repositórios privados em evolução' }
+    { label: 'Projetos em destaque', value: '3', detail: 'Música Artificial, LinkedIn AI Daily Posts e LifeOps' },
+    { label: 'Frentes atuais', value: '5', detail: 'Arquitetura, plataformas, IA aplicada, workflows e liderança' },
+    { label: 'Identidade técnica', value: 'Everton Silva', detail: 'Software Engineer · Arquitetura · Liderança Técnica' }
   ],
   activity: 'Decisões técnicas que deixam o produto mais legível'
 };
